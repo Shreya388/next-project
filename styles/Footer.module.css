@@ -1,0 +1,46 @@
+.Footer{
+    background: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+
+.Footer p{
+    padding: 20px 2%;
+    color: white;
+    font-family: klee one;
+}
+
+.Footer h1{
+    padding: 0px 2%;
+    color: white;
+    font-family: jua;
+}
+
+.footerCont{
+    padding: 100px 0;
+}
+.Footer a{
+    color: rgb(244, 244, 244);
+    font-weight: 500;
+    font-family: Rajdhani;
+}
+
+
+.Footer button{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 0;
+    padding: 15px 23px;
+    margin: 20px;
+}
+
+.footerLink{
+    margin-top: 4rem;
+}
+
+.footerMap{
+    height: 300px !important;
+    width: 100% !important;
+    max-height: 350px !important;
+}

@@ -1,0 +1,43 @@
+.portfolio{
+    padding: 200px 0;
+}
+
+.myImg{
+    height: 400px !important;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.textBody{
+    background: #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.textBody p {
+    color: grey;
+    font-family: rajdhani;
+}
+
+
+.textBody h1 {
+    color: white;
+    font-family: klee one;
+}
+
+.myCard{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.visitBtn{
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    color: white;
+    font-size: 12px;
+}
