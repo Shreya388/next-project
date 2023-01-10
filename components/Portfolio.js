@@ -81,9 +81,9 @@ const Portfolio = () => {
       <div className={styles.portfolio}>
           <div className="container text-center mt-4">
             <div className="row">
-              <Cards image={one} title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />
-              <Cards image={two} title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />
-              <Cards image={three} title="Furniture Website" bio="Made with the use of HTML, Css and Bootstrap" />
+              <Cards image={one} href="https://bright-melba-26fdc2.netlify.app/" title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />
+              <Cards image={two} href="https://thriving-crumble-7fe077.netlify.app/" title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />
+              <Cards image={three} href="https://steady-fudge-152718.netlify.app/" title="Furniture Website" bio="Made with the use of HTML, Css and Bootstrap" />
             </div>
             <div className="row mt-4">
               <Cards image={four} title="Dribble Design" bio="Made with the use of HTML, Css and Bootstrap" />

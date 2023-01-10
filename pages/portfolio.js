@@ -82,14 +82,14 @@ const Portfolio = () => {
               <Cards image={three} href="https://steady-fudge-152718.netlify.app/" title="Furniture Website" bio="Made with the use of HTML, Css and Bootstrap" />
             </div>
             <div className="row mt-4">
-              <Cards image={four} title="Dribble Design" bio="Made with the use of HTML, Css and Bootstrap" />
-              <Cards image={five} title="Logo Website" bio="Made with the use of HTML, Css and Bootstrap" />
-              <Cards image={six} title="Portfolio Site" bio="Made with the use of ReactJs, Css and React-Bootstrap" />
+              <Cards image={four} href="https://effulgent-nasturtium-2890d3.netlify.app/" title="Dribble Design" bio="Made with the use of HTML, Css and Bootstrap" />
+              <Cards image={five} href="https://splendid-kataifi-cdd59e.netlify.app/" title="Logo Website" bio="Made with the use of HTML, Css and Bootstrap" />
+              <Cards image={six} href="https://shreya388.github.io/Sample_site/" title="Portfolio Site" bio="Made with the use of ReactJs, Css and React-Bootstrap" />
             </div>
             <div className="row mt-4">
-              <Cards image={seven} title="Unsplash Images Search App" bio="Made with the use of ReactJs, Unsplash API axios, also Css and Bootstrap" />
-              <Cards image={eight} title="Food Delivery" bio="Made with the use of ReactJs, Css and Bootstrap" />
-              <Cards image={nine} title="Portfolio" bio="Made with the use of ReactJs, Css and Bootstrap" />
+              <Cards image={seven} href="https://jazzy-tanuki-ce2df1.netlify.app/" title="Unsplash Images Search App" bio="Made with the use of ReactJs, Unsplash API axios, also Css and Bootstrap" />
+              <Cards image={eight} href="https://shreya388.github.io/Food-delivery/" title="Food Delivery" bio="Made with the use of ReactJs, Css and Bootstrap" />
+              <Cards image={nine} href="https://shreya388.github.io/My-Portfolio-site/" title="Portfolio" bio="Made with the use of ReactJs, Css and Bootstrap" />
             </div>
             
           </div>
