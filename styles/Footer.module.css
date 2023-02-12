@@ -1,10 +1,9 @@
 .Footer{
     background: rgb(0, 0, 0);
-    padding: 50px 0;
 }
 
 .Footer p{
-    padding: 20px 2%;
+    padding: 0px 2%;
     color: white;
     font-family: klee one;
 }
@@ -12,11 +11,10 @@
 .Footer h1{
     padding: 0px 2%;
     color: white;
-    font-family: jua;
 }
 
 .footerCont{
-    padding: 100px 0;
+    padding: 10rem 0;
 }
 .Footer a{
     color: rgb(244, 244, 244);
@@ -31,8 +29,8 @@
     font-size: 20px;
     border-radius: 50%;
     border: 0;
-    padding: 15px 23px;
-    margin: 20px;
+    padding: 15px 0px;
+    margin: 20px 10px;
 }
 
 .footerLink{

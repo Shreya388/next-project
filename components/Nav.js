@@ -1,16 +1,17 @@
 import Link from "next/link";
 import styles from "../styles/Nav.module.css";
+import 'animate.css';
 
 const Nav = () => {
   return (
     <>
-      <nav
-        className={`${styles.topbar} navbar navbar-expand-md navbar-light fixed-top`}
-      >
-        <div className="container p-4 pb-4">
-          
+      <nav className={`${styles.topbar} navbar navbar-expand-md navbar-light`}>
+        <div className="container pt-3 pb-3">
+        <h1 className="navbar-brand" href="#">
+              Shreya Jha
+            </h1>
           <button
-            className="navbar-toggler d-lg-none navbar-dark"
+            className="navbar-toggler d-lg-none navbar-light ml-auto border-0"
             type="button"
             data-toggle="collapse"
             data-target="#collapsibleNavId"
@@ -21,37 +22,27 @@ const Nav = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavId">
-          <p className="navbar-brand text-white" href="#">
-            Shreya Jha
-          </p>
-            <ul className="navbar-nav mr-auto mt-lg-0 m-auto">
+            
+            <ul className="navbar-nav mt-lg-0 text-center">
               <li className="nav-item active">
                 <Link href="/">
-                  <a className={`${styles.link} nav-link`}>
-                    Home
-                  </a>
+                  <a className={`${styles.link} nav-link`}>Home</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/about">
-                  <a className={`${styles.link} nav-link`}>
-                    About
-                  </a>
+                  <a className={`${styles.link} nav-link`}>About</a>
                 </Link>
               </li>
               <li className="nav-item active">
                 <Link href="/portfolio">
-                  <a className={`${styles.link} nav-link`}>
-                    Portfolio
-                  </a>
+                  <a className={`${styles.link} nav-link`}>Portfolio</a>
                 </Link>
               </li>
-              
+
               <li className="nav-item">
                 <Link href="/contact">
-                  <a className={`${styles.link} nav-link`}>
-                  Contact Us
-                  </a>
+                  <a className={`${styles.link} nav-link`}>Contact Us</a>
                 </Link>
               </li>
             </ul>

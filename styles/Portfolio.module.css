@@ -1,5 +1,5 @@
 .portfolio{
-    padding: 200px 0;
+    padding: 5% 0;
 }
 
 .myImg{
@@ -8,7 +8,7 @@
 }
 
 .textBody{
-    background: #000;
+    background: rgb(248, 248, 248);
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px;
@@ -18,14 +18,13 @@
 }
 
 .textBody p {
-    color: grey;
+    color: black;
     font-family: rajdhani;
 }
 
 
 .textBody h1 {
-    color: white;
-    font-family: klee one;
+    color: black;
 }
 
 .myCard{
@@ -36,8 +35,8 @@
 .visitBtn{
     background-color: transparent;
     padding: 10px 30px;
-    border-radius: 10px;
-    border: 1px solid purple;
-    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    color: rgb(24, 24, 24);
     font-size: 12px;
 }

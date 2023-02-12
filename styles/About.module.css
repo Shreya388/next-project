@@ -7,17 +7,22 @@
 }
 
 .about h1{
-    font-family: klee one !important;
 }
 
 .inTouch{
     background-color: rgb(12, 12, 12);
-    padding: 200px 0;
-    font-family: klee one;
+    padding: 150px 0;
+}
+
+.inTouch h1{
+    font-size: 40px;
 }
 
 .inTouch p{
-    font-family: klee one;
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #cccccc;
 }
 
 
@@ -25,7 +30,7 @@
     margin-top: 15px;
     background: transparent;
     padding: 14px 52px;
-    border-radius: 0;
+    border-radius: 5px;
     color: white;
-    border: 1px solid purple;
+    border: 1px solid #ccc;
 }

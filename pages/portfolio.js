@@ -16,7 +16,7 @@ import Script from "next/script";
 const Cards = (props) => {
    
   return (
-    <div className={`${styles.mycont}col-sm-12 col-md-6 col-lg-4 mt-4`}>
+    <div className={`${styles.mycont}col-sm-12 col-lg-4`}>
       <div className={`${styles.myCard} card`}>
       <Image
         src={props.image}
@@ -75,7 +75,7 @@ const Portfolio = () => {
           ></Script>
 
       <div className={styles.portfolio}>
-          <div className="container text-center mt-4">
+          <div className="container text-center">
             <div className="row">
               <Cards image={one} href="https://bright-melba-26fdc2.netlify.app/" title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />
               <Cards image={two} href="https://thriving-crumble-7fe077.netlify.app/" title="Men's Fashion Website" bio="Made with the use of HTML, Css and Bootstrap" />

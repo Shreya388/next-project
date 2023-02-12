@@ -13,26 +13,20 @@ const Paragraph = {
 
 const Links = (props) => {
   return (
-    <div className={`${styles.footerLink} col-md-4 text-center col-sm-12 col-lg-2 `}>
+    <div
+      className={`${styles.footerLink} col-md-4 text-center col-sm-12 col-lg-2 `}
+    >
       <Link href={props.href}>
-        <a className="nav-link">
-        {props.firstLink}
-        </a>
+        <a className="nav-link">{props.firstLink}</a>
       </Link>
       <Link href={props.href}>
-        <a className="nav-link">
-        {props.secondLink}
-        </a>
+        <a className="nav-link">{props.secondLink}</a>
       </Link>
       <Link href={props.href}>
-        <a className="nav-link">
-        {props.thirdLink}
-        </a>
+        <a className="nav-link">{props.thirdLink}</a>
       </Link>
       <Link href={props.href}>
-        <a className="nav-link">
-        {props.fourthLink}
-        </a>
+        <a className="nav-link">{props.fourthLink}</a>
       </Link>
     </div>
   );
@@ -52,30 +46,14 @@ const Footer = () => {
         <div className="container">
           <div className={`${styles.footerCont}`}>
             <div className="row">
-              <div className="col-md-4 col-sm-12 col-lg-2">
-                <a href="https://www.linkedin.com/in/shreya-jha-6043aa1a3/">
-                  <button>
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </button>
-                </a>
-                <a href="https://www.instagram.com/shreyajha1238/">
-                  <button>
-                    <i className="fa-brands fa-instagram"></i>
-                  </button>
-                </a>
-                <a href="https://meenaxjha@gmail.com">
-                  <button>
-                    <i className="fa-thin fa fa-envelope"></i>
-                  </button>
-                </a>
-              </div>
-              <div className="col-md-4 col-sm-12 col-lg-4">
+              <div className="col-md-12 col-sm-12 col-lg-4">
+                
+
                 <div className="container">
                   <h1>{Paragraph.name}</h1>
                   <p className="">{Paragraph.bioOne}</p>
                 </div>
               </div>
-
 
               <Links
                 href="#"
@@ -98,10 +76,10 @@ const Footer = () => {
                 thirdLink="Graphic Design"
                 fourthLink="Android App"
               />
-              
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );
