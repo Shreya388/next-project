@@ -5,7 +5,7 @@ import Script from "next/script";
 import Contact from "../components/Contact";
 import Portfolio from "../components/Portfolio";
 import Bio from "../components/Bio";
-import port from "../img/port.jpg";
+import port from "../img/port.webp";
 
 const Paragraph = {
   name: "Shreya Jha",
