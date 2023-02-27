@@ -1,13 +1,17 @@
 .cover {
     background-size: cover;
     background-position: bottom;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
+
+.headerText{
+    padding: 100px 0;
+}
+
 
 .cover h1 {
     font-weight: 500;
     color: rgb(28, 28, 28);
-    font-family: jua;
 }
 
 .headingLabel {
@@ -15,41 +19,35 @@
 }
 
 .cover p {
+    text-align: justify;
+    font-weight: 400 !important;
     font-size: 18px;
-    color: rgb(27, 27, 27);
-    font-family: klee one !important;
-    font-weight: 400;
-}
-
-
-.preHeading {
-    color: rgb(75, 75, 75) !important;
-    font-size: 30px !important;
+    color: rgb(103, 103, 103) !important;
+    font-weight: roboto !important;
 }
 
 .cvBtn {
-    background: rgba(255, 255, 255, 0);
-    padding: 15px 16px;
-    font-weight: 400;
-    border-radius: 5px;
-    border: 1px solid rgb(51, 129, 255);
-    color: rgb(51, 129, 255);
-    width: 180px;
-    z-index: 1;
-    transition: 0.7s;
-    margin-top: 12px;
+    margin-top: 15px;
+    background: #498a84;
+    padding: 14px 52px !important;
+    border-radius: 30px !important;
+    color: #fff;
+    border: 1px solid #ccc;
+    transition: 0.8s !important;
 }
 
 .cvBtn:hover {
-    background: rgb(51, 129, 255);
-    padding: 15px 16px;
-    color: white;
-    border: 1px solid rgb(73, 143, 255);
+    margin-top: 15px;
+    background: #366661;
+    padding: 14px 52px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ccc;
+    transition: 0.8s !important;
 }
 
 .cvBtn:focus {
-    background: rgb(51, 129, 255);
-    box-shadow: unset;
+    background: #498a84;
 }
 
 
@@ -59,15 +57,22 @@
     padding-bottom: 10rem;
     color: rgb(51, 51, 51);
     font-weight: 400 !important;
+    font-size: 18px;
 }
 
 .about i {
-    color: rgb(93, 155, 255);
+    color: #366661;
+}
+
+.about .text{
+    color: #444;
+
+    text-align: justify !important;
 }
 
 .about>div {
-    display: flex;
-    text-align: center;
+    
+    padding: 0 1%;
 }
 
 .header-img {
@@ -79,23 +84,33 @@
 
 .progressbar{
     padding: 8rem 0;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
 }
 
 .myProgress{
-    width:300px;
-    height: 10px !important;
-    background: rgb(221, 221, 221);
+    width: 90% !important;
+    height: 8px!important;
+    background: #efefef !important;
+    border-radius: 39px !important;
 }
 
-.progress-bar{
-    background-color: #ff5c33 !important;
+.progressBar{
+    width: 75%;
+    background: #82a7b5 !important;
 }
 
+.progressTitle{
+    text-align: center;
+}
+
+.progressText{
+    text-align: center;
+    margin: 0 20%;
+    text-align: justify;
+}
 
 .lebel{
-    color: rgb(92, 92, 92) !important;
-    font-size: 12px;
+    color: #5e5e5e!important;
+    font-size: 18px;
     margin-top: 30px;
-    font-style: italic;
 }

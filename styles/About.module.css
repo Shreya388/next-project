@@ -11,27 +11,30 @@
 }
 
 .inTouch{
-    background-color: rgb(12, 12, 12);
+    background-color: #ffffff;
     padding: 150px 0;
+    border: 1px solid #eee;
 }
 
 .inTouch h1{
-    font-size: 40px;
+    color: black;
+    font-size: 17px;
+    font-weight: 400 !important;
 }
 
 .inTouch p{
-    font-family: sans-serif;
-    font-weight: 400px;
-    font-size: 18px;
-    color: #cccccc;
+    text-align: justify;
+    color: #333;
+    font-weight: 300 !important;
+    font-size: 18px !important;
 }
 
 
 .button{
     margin-top: 15px;
-    background: transparent;
+    background: #498a84;
     padding: 14px 52px;
-    border-radius: 5px;
-    color: white;
+    border-radius: 30px;
+    color: #fff;
     border: 1px solid #ccc;
 }

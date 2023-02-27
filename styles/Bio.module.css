@@ -1,0 +1,42 @@
+.Bio{
+    background-color: #ffffff;
+    padding: 150px 0;
+}
+
+.Bio h1{
+    color: black;
+    font-size: 17px;
+    font-weight: 400 !important;
+}
+
+.button{
+    margin-top: 15px;
+    background: #498a84;
+    padding: 14px 52px;
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.Bio p{
+    text-align: justify;
+    color: #333;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}
+
+.Bio h6{
+    color: rgb(79, 79, 79);
+}
+
+.contentBox{
+    background: white !important;
+    border: 1px solid rgb(246, 246, 246);
+    height: 50rem !important;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.206) 0px 10px 30px;
+}
+
+.contentBody{
+    margin-top: 5rem;
+}

@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/About.module.css";
 import Script from "next/script";
+import port from "../img/port.webp";
+import work from "../img/work.webp";
 
 const Paragraph = {
   name: "Shreya Jha",
@@ -62,6 +64,7 @@ const About = () => {
 
       <div className={styles.inTouch}>
         <div className="container text-white">
+          <div className="row">
           <div className="col-md-7">
             <p>Hello There!</p>
             <h1 className="display-3">I'm {Paragraph.name}</h1>
@@ -69,6 +72,9 @@ const About = () => {
             <br />
             <p>{Paragraph.bioTwo}</p>
             <button className={styles.button}>Learn More</button>
+          </div>
+
+          
           </div>
           
         </div>

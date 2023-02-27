@@ -26,7 +26,7 @@ const Nav = () => {
             <ul className="navbar-nav mt-lg-0 text-center">
               <li className="nav-item active">
                 <Link href="/">
-                  <a className={`${styles.link} nav-link`}>Home</a>
+                  <a className={`${styles.linkActive} nav-link`}>Home</a>
                 </Link>
               </li>
               <li className="nav-item">
