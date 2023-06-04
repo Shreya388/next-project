@@ -1,5 +1,5 @@
 .topbar {
-    background: transparent;
+    background: white;
 }
 
 .topbar ul {
@@ -10,26 +10,52 @@
 }
 
 .link {
-    color: #1d3734 !important;
+    color: black !important;
     font-size: 18px;
     padding: 10px 0px !important;
     margin: 0px 20px;
     font-weight: 400;
+}
 
+.contactlink {
+    background: #05c822;
+    padding: 8px 22px !important;
+    border-radius: 33px;
+    color: white !important;
 }
 
 .link:hover {
-    color: #1d3734 !important;
+    color: black !important;
     transition: 0.3s;
     border-radius: 0px 0px 0px 6px !important;
 
 }
 
 .linkActive {
-    color: #1d3734 !important;
+    color: black !important;
     font-size: 18px;
     padding: 10px 0px !important;
     margin: 0px 20px;
     font-weight: 400;
     border-radius: 0px 0px 0px 6px !important;
+}
+
+.cvBtn {
+    margin-top: 15px;
+    background: #05c822;
+    padding: 14px 52px !important;
+    border-radius: 30px !important;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: 0.8s !important;
+}
+
+.cvBtn:hover {
+    margin-top: 15px;
+    background: #366661;
+    padding: 14px 52px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ccc;
+    transition: 0.8s !important;
 }

@@ -1,5 +1,5 @@
 .Footer{
-    background: rgb(0, 0, 0);
+    background: white;
 }
 
 .Footer p{
@@ -14,12 +14,13 @@
 }
 
 .footerCont{
-    padding: 10rem 0;
+    padding: 15rem 0;
 }
 .Footer a{
-    color: rgb(244, 244, 244);
+    color: rgb(42, 42, 42);
     font-weight: 500;
-    font-family: Rajdhani;
+    text-align: left;
+    /* font-family: Rajdhani; */
 }
 
 
@@ -34,7 +35,7 @@
 }
 
 .footerLink{
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 
 .footerMap{

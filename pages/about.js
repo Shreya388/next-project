@@ -2,8 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/About.module.css";
 import Script from "next/script";
-import port from "../img/port.webp";
-import work from "../img/work.webp";
 
 const Paragraph = {
   name: "Shreya Jha",
@@ -57,8 +55,9 @@ const About = () => {
       ></Script>
 
       <div className={styles.about}>
-        <div className="container text-white text-center">
-          <h1 className="display-3">About Me</h1>
+        <div className="container text-center">
+          <h1 className="display-1">About Us</h1>
+          <p>Home / About Us</p>
         </div>
       </div>
 

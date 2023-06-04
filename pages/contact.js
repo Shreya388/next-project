@@ -120,30 +120,6 @@ const Contact = () => {
                   <br /> beatae vitae dicta sunt explicabo. Nemo enim ipsam
                   voluptatem quia voluptas sit aspernatur aut odit aut fugit
                 </p>
-                <br />
-                <br />
-                <div className="row mt-4">
-                  <div className="col-md-6 col-sm-6">
-                    <i className="fa-thin fa fa-phone"></i> <b>Phone</b>
-                    <p>+91 9395692041</p>
-                  </div>
-                  <div className="col-md-6 col-sm-6">
-                    <i className="fa-thin fa fa-phone"></i> <b>Email Address</b>
-                    <p>meenaxjha@gmail.com</p>
-                  </div>
-                </div>
-
-                <div className="row mt-4">
-                  <div className="col-md-6">
-                    <i className="fa-thin fa fa-location-pin"></i>{" "}
-                    <b>Location</b>
-                    <p>Noida, Uttar Pradesh</p>
-                  </div>
-                  <div className="col-md-6">
-                    <i className="fa-brands fa-linkedin-in"></i> <b>Linkedin</b>
-                    <p>shreya-jha-6043aa1a3</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

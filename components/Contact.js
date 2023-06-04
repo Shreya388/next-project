@@ -65,39 +65,19 @@ const Contact = () => {
       <div className={styles.boxSection}>
         <div className="container">
           <div className="row">
-
             <div className="col-md-6 col-sm-12 col-lg-6">
               <div className={styles.formTextbox}>
                 <p>CONTACT US</p>
                 <h1 className="display-6">Have Any Project?</h1>
                 <p className="pt-4">
-                We'd love to hear from you! If you have any questions or comments, please feel free to reach out to us.
+                  We'd love to hear from you! If you have any questions or
+                  comments, please feel free to reach out to us.
                   <br />
-                  <br /> We strive to respond to all inquiries within 24 hours. Thank you for reaching out to us!
+                  <br /> We strive to respond to all inquiries within 24 hours.
+                  Thank you for reaching out to us!
                 </p>
                 <br />
                 <br />
-                <div className="row mt-4">
-                  <div className="col-md-6 col-sm-6">
-                    <i class="fa-thin fa fa-phone"></i> <b>Phone</b>
-                    <p>+91 9395692041</p>
-                  </div>
-                  <div className="col-md-6 col-sm-6">
-                    <i class="fa-thin fa fa-phone"></i> <b>Email Address</b>
-                    <p>meenaxjha@gmail.com</p>
-                  </div>
-                </div>
-
-                <div className="row mt-4">
-                  <div className="col-md-6">
-                    <i class="fa-thin fa fa-location-pin"></i> <b>Location</b>
-                    <p>Noida, Uttar Pradesh</p>
-                  </div>
-                  <div className="col-md-6">
-                    <i class="fa-brands fa-linkedin-in"></i> <b>Linkedin</b>
-                    <p>shreya-jha-6043aa1a3</p>
-                  </div>
-                </div>
               </div>
             </div>
 

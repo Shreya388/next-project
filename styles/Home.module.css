@@ -2,10 +2,12 @@
     background-size: cover;
     background-position: bottom;
     padding: 1rem 1rem;
+    background-color: white;
 }
 
 .headerText{
     padding: 100px 0;
+    background-color: white;
 }
 
 
@@ -22,17 +24,16 @@
     text-align: justify;
     font-weight: 400 !important;
     font-size: 18px;
-    color: rgb(103, 103, 103) !important;
     font-weight: roboto !important;
 }
 
 .cvBtn {
     margin-top: 15px;
-    background: #498a84;
+    background: #05c822;
     padding: 14px 52px !important;
     border-radius: 30px !important;
     color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid transparent;
     transition: 0.8s !important;
 }
 
@@ -61,7 +62,16 @@
 }
 
 .about i {
-    color: #366661;
+    color: #5cff75 !important;
+    border: 1px solid #5cff75;
+    width:6rem;
+    height: 6rem;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.about i {
+    color: #517657;
 }
 
 .about .text{
@@ -79,6 +89,21 @@
     border-radius: 50% !important;
 }
 
+.imgdiv{
+    background-color: black !important;
+}
+
+
+.serviceBtn{
+    margin-top: 15px;
+    background: transparent;
+    
+    padding: 14px 52px !important;
+    border-radius: 30px !important;
+    color: #05c822;
+    border: 1px solid #05c822;
+    transition: 0.8s !important;
+}
 
 /* Progress */
 

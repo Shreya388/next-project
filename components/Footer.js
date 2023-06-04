@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Footer.module.css";
+import logo from "../img/Tree-Tech-Digi-Logo.png";
 
 const Paragraph = {
   name: "Shreya Jha",
@@ -14,7 +16,7 @@ const Paragraph = {
 const Links = (props) => {
   return (
     <div
-      className={`${styles.footerLink} col-md-4 text-center col-sm-12 col-lg-2 `}
+      className={`${styles.footerLink} col-md-4 text-center col-sm-12 col-lg-2   `}
     >
       <Link href={props.href}>
         <a className="nav-link">{props.firstLink}</a>
@@ -46,40 +48,47 @@ const Footer = () => {
         <div className="container">
           <div className={`${styles.footerCont}`}>
             <div className="row">
-              <div className="col-md-12 col-sm-12 col-lg-4">
-                
-
+              <div className="col-md-12 col-sm-12 col-lg-3">
                 <div className="container">
-                  <h1>{Paragraph.name}</h1>
-                  <p className="">{Paragraph.bioOne}</p>
+                  <Image src={logo} />
                 </div>
               </div>
 
               <Links
                 href="#"
-                firstLink="Home"
-                secondLink="About"
-                thirdLink="Portfolio"
-                fourthLink="Contact"
+                firstLink="Digital Marketing"
+                secondLink="Search Engine Optimization"
+                thirdLink="Social Media Services"
+                fourthLink="Local SEO"
               />
               <Links
                 href="#"
-                firstLink="Popular Design"
-                secondLink="Trendy Products"
-                thirdLink="Marketing"
-                fourthLink="SEO Friendly"
+                firstLink="Home"
+                secondLink="About Us"
+                thirdLink="Blog"
+                fourthLink="Contact Us"
               />
               <Links
                 href="#"
                 firstLink="UI/UX Design"
                 secondLink="Web Development"
                 thirdLink="Graphic Design"
-                fourthLink="Android App"
+              />
+              <Links
+                href="#"
+                firstLink="UI/UX Design"
+                secondLink="Web Development"
+                thirdLink="Graphic Design"
               />
             </div>
           </div>
         </div>
-        
+        <div className="" style={{ padding: "40px 0" }}>
+          <div className="container text-center">
+            
+            Copyright © 2021 <a href="#">Tree Tech Digi</a> All Rights Reserved.
+          </div>
+        </div>
       </div>
     </>
   );

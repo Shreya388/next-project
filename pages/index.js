@@ -3,157 +3,85 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Script from "next/script";
 import Contact from "../components/Contact";
-import Portfolio from "../components/Portfolio";
-import Bio from "../components/Bio";
-import port from "../img/port.webp";
+import cover from "../img/cover.png";
+import graphics from "../img/social-icons/pen-tool.png";
+import design from "../img/social-icons/design.png";
+import socialMedia from "../img/social-icons/social-media.png";
+import seotwo from "../img/social-icons/seotwo.png";
+import seo from "../img/social-icons/seo.png";
 
 const Paragraph = {
-  name: "Shreya Jha",
+  Title: "Let's Make Your Business A Brand",
 
   bioOne:
-    "Logical and results-driven Web Developer dedicated to building and optimizing user-focused websites for customers with various business objectives. Judicious and creative when crafting effective websites apps and platforms to propel competitive advantage and revenue growth.",
+    "A digital method to connect with customers and promote your business in the digital world of social media.",
 };
 
 const aboutContent = {
-  title1: "High Quality",
-  title2: "Best Selling",
+  title1: "Our Dedicated Support",
+  title2: "Excellence Track Record",
   title3: "Creative Designs",
   para1:
-    "who create visually appealing and user-friendly designs that will help your business stand out online",
-  para2: "Find out why these products are our top sellers – get yours today!",
-  para3: "From bold to subtle, we have a design for every style and taste ",
+    "With strong company culture and utmost dedication of the teamwork we are serving with pride",
+  para2:
+    "Tree tech digi is a digital marketing company that aim to provide full-service digital marketing solutions to the clients within their budget.",
+  para3:
+    "We believe in teamwork and functioning as a team to achieve the goal.",
 };
+
+const serviceContent = {
+  title1: "Digital Marketing",
+  title2: "Graphics Design",
+  title3: "Social Media Services",
+  title4: "Local SEO",
+  title5: "SEO",
+  title6: "Web Designing",
+  para1:
+    "With digital marketing services your business can tremendously grow and achieve its goals.",
+  para2:
+    "Get custom design with our creative graphic designer team and let your website shine.",
+  para3:
+    "Expand your market niche and audiences with social media marketing.",
+  para4:
+    "With us generate more local leads and enhance your targeted demographic for your local business.",
+  para5:
+    "We help you to achieve high rankings and increase your page visibility in the search engine result pages.",
+  para6:
+    "Expand your market niche and audiences with social media marketing.",
+  
+  };
 
 const About = (props) => {
   return (
     <div className="col-lg-4 col-md-4 col-12 p-4">
       <div className="p-4 text-center">
-        <h1 className="display-1">
+        <h1 className="display-4">
           <i className={props.icons}></i>
         </h1>
-        <b>
-          <p className="navbar-brand">{props.title}</p>
-        </b>
+        <p className="navbar-brand">
+          <b>{props.title}</b>
+        </p>
         <p className={styles.text}>{props.text}</p>
+        
       </div>
     </div>
   );
 };
 
-const Progress = () => {
+const Services = (props) => {
   return (
-    <div className={styles.progressbar}>
-      <div className="container mt-4 mb-4 m-auto">
-        <h3 className={styles.progressTitle}>Your Vision, Our Creation</h3>
-        <p className={styles.progressText}>
-          Learn more about my background and experience as a web developer
-           including my approach to building websites that exceed client
-          expectations.
+    <div className="col-lg-4 col-md-4 col-12 p-4">
+      <div className="p-4 text-center">
+        <h1 className="display-1">
+          <Image src={props.img} />
+        </h1>
+
+        <p className="navbar-brand">
+          <b>{props.title}</b>
         </p>
-        <div className="row">
-          <div className="col-md-6 col-sm-12 col-lg-6 p-4">
-            <div className="container">
-            <div className="progress-sec">
-              <label className={styles.lebel}>
-                JavaScript (ReactJS, NextJS)
-              </label>
-              <div className={`${styles.myProgress} progress`}>
-                <div
-                  className={styles.progressBar}
-                  role="progressbar"
-                  aria-valuenow="25"
-                  style={{ width: "43%", background: "#ff5c33" }}
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <label className={styles.lebel}>
-                HTML, SCSS, CSS (Bootstrap framework)
-              </label>
-              <div className={`${styles.myProgress} progress`}>
-                <div
-                  className={styles.progressBar}
-                  role="progressbar"
-                  style={{ width: "85%", background: "#ff5c33" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <label className={styles.lebel}>NodeJS, JSON, API</label>
-              <div className={`${styles.myProgress} progress`}>
-                <div
-                  className={styles.progressBar}
-                  role="progressbar"
-                  style={{ width: "69%", background: "#ff5c33" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <label className={styles.lebel}>Photoshop, Figma</label>
-              <div className={`${styles.myProgress} progress`}>
-                <div
-                  className={styles.progressBar}
-                  role="progressbar"
-                  style={{ width: "95%", background: "#ff5c33" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-6 col-sm-12 p-4">
-            <div className="container">
-            <label className={styles.lebel}>Problem-Solving</label>
-            <div className={`${styles.myProgress} progress`}>
-              <div
-                className={styles.progressBar}
-                role="progressbar"
-                style={{ width: "75%", background: "#ff5c33" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <label className={styles.lebel}>Active Listening</label>
-            <div className={`${styles.myProgress} progress`}>
-              <div
-                className={styles.progressBar}
-                role="progressbar"
-                style={{ width: "69%", background: "#ff5c33" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <label className={styles.lebel}>Flexible and Adaptable</label>
-            <div className={`${styles.myProgress} progress`}>
-              <div
-                className={styles.progressBar}
-                role="progressbar"
-                style={{ width: "85%", background: "#ff5c33" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <label className={styles.lebel}>Excellent Communicator</label>
-            <div className={`${styles.myProgress} progress`}>
-              <div
-                className={styles.progressBar}
-                role="progressbar"
-                style={{ width: "90%", background: "#ff5c33" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          </div>
-        </div>
+
+        <p className={styles.text}>{props.text}</p>
+        <button className={styles.serviceBtn}>Read More</button>
       </div>
     </div>
   );
@@ -164,7 +92,7 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Shreya Jha</title>
+          <title>Tree Tech Digi</title>
           <meta name="keywords" content="web development, programming" />
           <link
             rel="stylesheet"
@@ -207,35 +135,36 @@ export default function Home() {
               <div className="col-md-12 col-lg-5 col-sm-12">
                 <div className={`${styles.headerText} card border-0`}>
                   <div className="card-body">
-                <div className={styles.headerContent}>
-                  <div className="">
-                    <p className={styles.headingLabel}>Web Developer</p>
-                    <h1 className="display-4">{Paragraph.name}</h1>
-                    <p className="">
-                      {Paragraph.bioOne}
-                      <br />
-                    </p>
+                    <div className={styles.headerContent}>
+                      <div className="">
+                        <p className={styles.headingLabel}>
+                          Digital Marketing Agency
+                        </p>
+                        <h1 className="display-4">{Paragraph.Title}</h1>
+                        <p className="">
+                          {Paragraph.bioOne}
+                          <br />
+                        </p>
 
-                    <a
-                      href="SHREYA JHA_Resume.pdf"
-                      download="SHREYA JHA_Resume.pdf"
-                    >
-                      <button className={`${styles.cvBtn} cv btn btn-primary`}>
-                        Download CV
-                      </button>
-                    </a>
+                        <a
+                          href="SHREYA JHA_Resume.pdf"
+                          download="SHREYA JHA_Resume.pdf"
+                        >
+                          <button
+                            className={`${styles.cvBtn} cv btn btn-primary`}
+                          >
+                            Get Started
+                          </button>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                </div>
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 col-sm-12">
-                <div className="card border-0">
-                  <div className="card-body">
-                  <Image className="header-img" src={port} />
-                  </div>
+                <div className={`${styles.imgdivcard} border-0`}>
+                  <Image className="header-img" src={cover} />
                 </div>
-
               </div>
             </div>
           </div>
@@ -244,10 +173,8 @@ export default function Home() {
 
       <div className={`${styles.about} mt-4`}>
         <div className="container">
-        <h1 className=" display-6 text-center">Bringing Your Vision to Life</h1>
-        <p className=" text-center">
-          Discover how I can help bring your website vision to life.
-        </p>
+          <h1 className=" display-6 text-center">About Tree Tech Digi</h1>
+          <p className=""></p>
         </div>
         <div className="container mt-4">
           <div className="row">
@@ -270,10 +197,50 @@ export default function Home() {
         </div>
       </div>
 
-      {/* About */}
-      <Bio />
 
-      <Progress />
+      <div className="mt-4">
+        <div className="container">
+          <h1 className=" display-6 text-center">Check Out Our Services</h1>
+          <p className=""></p>
+        </div>
+      <div className="container mt-4">
+          <div className="row">
+            <Services
+              title={serviceContent.title1}
+              text={serviceContent.para1}
+              img={seo}
+            />
+            <Services
+              title={serviceContent.title2}
+              text={serviceContent.para2}
+              img={graphics}
+            />
+            <Services
+              title={serviceContent.title3}
+              text={serviceContent.para3}
+              img={socialMedia}
+            />
+          </div>
+
+          <div className="row">
+            <Services
+              title={serviceContent.title4}
+              text={serviceContent.para4}
+              img={seo}
+            />
+            <Services
+              title={serviceContent.title5}
+              text={serviceContent.para5}
+              img={seotwo}
+            />
+            <Services
+              title={serviceContent.title6}
+              text={serviceContent.para6}
+              img={design}
+            />
+          </div>
+        </div>
+        </div>
 
       {/* Portfolio */}
 
